@@ -4,12 +4,12 @@
 ```
 sudo apt-get update
 sudo apt-get remove docker docker-engine docker.io
-sudo apt install docker.io
-sudo apt  install docker-compose
+sudo apt install docker.io docker-compose git
 sudo systemctl start docker
 sudo systemctl enable docker
 
-# download docker-compose.yml
+git clone https://github.com/haydenwade/hw-projects.git
 
-docker-compose 
+cd hw-projects/digitalocean
+docker-compose up -d
 ```
