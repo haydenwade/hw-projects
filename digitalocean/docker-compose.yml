@@ -1,6 +1,12 @@
 version: "2"
 services:
-  hayden-wade-dot-com:
+  hw:
     image: haydenwade/hayden-wade-dot-com:latest
+    restart: always
     ports:
       - 3000:3000
+  zpo:
+      image: haydenwade/zero-plus-one-podcast:latest
+      restart: always
+      ports:
+        - 3001:80
