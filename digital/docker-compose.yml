@@ -1,0 +1,6 @@
+version: "2"
+services:
+  hayden-wade-dot-com:
+    image: haydenwade/hayden-wade-dot-com:latest
+    ports:
+      - 3000:3000
