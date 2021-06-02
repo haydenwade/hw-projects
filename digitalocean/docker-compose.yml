@@ -4,9 +4,9 @@ services:
     image: haydenwade/hayden-wade-dot-com:latest
     restart: always
     ports:
-      - 3000:3000
+      - 3000:80
   zpo:
-      image: haydenwade/zero-plus-one-podcast:latest
-      restart: always
-      ports:
-        - 3001:80
+    image: haydenwade/zero-plus-one-podcast:latest
+    restart: always
+    ports:
+      - 3001:80
