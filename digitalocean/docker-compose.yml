@@ -14,4 +14,4 @@ services:
     image: haydenwade/team-wawe:latest
     restart: always
     ports:
-      - 3002:80
+      - 3002:8080
