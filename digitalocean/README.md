@@ -24,3 +24,7 @@ sudo certbot --nginx -d haydenwade.com -d www.haydenwade.com
 - haydenwade.com - port: 3000
 - zeroplusonepodcast.com - port: 3001
 - teamwawe.com - port: 3002
+
+## Deploying new changes
+- `docker-compose pull`
+- `docker-compose up -d`
